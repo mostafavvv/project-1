@@ -1,0 +1,33 @@
+/*start Device Attachment*/
+
+
+.Device-Attachment{
+    background: #f7f7f7!important;
+    margin: 30px;
+
+}
+.Device-Attachment h1{
+    padding-top: 30px;
+        font-size: 38px;
+        line-height: 1.2em;
+        color: #082C46;
+        font-weight: bold;
+        font-family:  Raleway,sans-serif;
+        margin-bottom: 40px;
+
+}
+
+
+.Device-content{
+margin-bottom: 20px;
+
+}
+.Device-content p {
+    border: 3px solid #082C46;
+    padding: 10px;
+    line-height: 27px;
+    color: #6d6d6d;
+    font-size: 20px;
+
+}
+/* end Device Attachment */

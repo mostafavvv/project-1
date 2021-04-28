@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+body{
+}
+.secc{
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    background-color: #eeeeee;
+
+
+}
+.secc h2 {
+   color: #6195ff;
+}
+.secc p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 2;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.secc .line{
+    display: block;
+    height: 5px;
+    width: 60px;
+    margin: 30px auto 40px auto;
+    background-color: #fdca40;
+}
+
+/**/
+.jumbotron{
+    
+   /*background-image: url(../img/photo-1522441815192-d9f04eb0615c.jfif);
+    background-size: cover;
+    opacity: 0.9;*/ 
+    background-color: #f7f7f7;
+}
+
+.jumbotron h1{
+    font-size:  34px;  
+ font-family: Raleway,sans-serif;
+   color:#082C46;
+   margin-bottom: 20px;
+}
+.jumbotron p {
+    line-height: 27px;
+    color: #6d6d6d;
+    font-size: 15px;
+
+}
+
+
+/**/
+.sas{
+    background-color: #f7f7f7;
+    margin-top: 0;
+}
+.sas i {
+    color: #e92727;
+    
+    padding: 10px;
+
+}
+.sas img {
+    margin-top: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: transform 0.8s
+}
+.sas img:hover{
+    transform: scale(1.1);
+}
+.sas h1{
+    font-size:  34px;  
+ font-family: Raleway,sans-serif;
+   color:#082C46;
+   margin-bottom: 20px;
+}
+.sas p {
+    line-height: 27px;
+    color: #6d6d6d;
+    font-size: 15px;
+
+}
+
+/* mobile*/
+.mobile{
+    
+    padding: 0;
+}
+.image{
+    
+    height: 300px;
+
+
+
+}
+.content{
+    padding: 50px;
+}
+.content p i {
+    color: #2788e9;
+    
+    padding: 10px;
+
+    
+}
+
+.content h3 {
+    color: #6195ff;
+}
+.content p{
+    margin-top: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+
+}
+
+
+.image img{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    animation: float 3s linear infinite;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    transform: rotate(20deg);
+    border-radius: 50%;
+}
+.modile-title {
+    margin-top: 30px;
+}
+
+.modile-title i {
+    padding: 40px;
+    margin-bottom: 20px;
+font-size: 60px;
+color: #6195ff;
+border-radius: 50%;
+border: 1px solid #6195ff;
+}
+.modile-title h2{
+    font-family: Raleway,sans-serif;
+    color:#082C46;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.modile-title p{
+    margin-bottom: 50px;
+    color: #6d6d6d;
+    font-size: 15px;
+    inline-size: 1.5;
+}
+
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+
+    50%{
+        transform: translateY(-1.5rem);
+    }
+}
+
+
+/*my-education*/
+.my-education-2{
+    background-color: #eeeeee;
+}
