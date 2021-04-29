@@ -108,6 +108,7 @@ display: flex;
         
 
 .navbar-nav .nav-link {
+    position: relative;
     font-size: 18px;
     text-transform: capitalize;
     margin-left: 20px;
@@ -115,9 +116,12 @@ display: flex;
     font-weight: 400;
 }
 
+
+
 .navbar-nav .nav-item .nav-link {
     color: #082C46;
     font-weight: 600;
+    
 
 }
 .navbar-nav .nav-item .nav-link:hover{
@@ -153,6 +157,7 @@ display: flex;
 
 
 }
+
 .slider .carousel-inner h1 span {
     background-color: #08526d;
     display: inline-block;
@@ -204,7 +209,7 @@ display: flex;
 }
 /* end slider*/
 
-/*****/
+/** start our-team***/
 
 .our-team{
    
@@ -247,7 +252,7 @@ display: flex;
 
 
 
-/****/
+/** end our-team**/
 
 /* start dry-desc*/
 .dry{
@@ -293,7 +298,7 @@ position: relative;
 
 
 
-/*******************/
+/******** start card ***********/
 .card-group{
     background : #f7f7f7!important;
     padding: 50px 0;
@@ -358,7 +363,8 @@ position: relative;
 
 
 
-/* end*/
+/* end card*/
+/* start footer*/
 footer{
     position: relative;
     width: 100%;
@@ -379,7 +385,7 @@ footer  .container .sec h2{
     position: relative;
     color: #fff;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 
 
 }
@@ -387,7 +393,7 @@ footer  .container .sec h2::before {
 
     content: "";
     position: absolute;
-    bottom: -5px;
+    bottom: -15px;
     left: 0;
     width: 50px;
     height: 2px;
@@ -421,14 +427,14 @@ footer  .container .sec p{
 }
 .sci li a:hover {
     background-color:rgba(0, 0, 0, 0.1) ;
-    border: 2px solid #ec1c23;
+    border: 2px solid #949191;
     color: #08526d;
 
     border-radius: 50%;
 }
 .sci li a:hover i {
     transform: scale(1.1,1.1) ;
-    color: #fc3200;
+    color: #fc003f;
 }
 
 .sci li a .fab {
@@ -449,7 +455,7 @@ footer  .container .sec p{
 }
 .quicklinks li a:hover{
 
-    color:#6195ff ;
+    color:#ffeb3b ;
 
 }
 .info{
@@ -476,7 +482,7 @@ footer  .container .sec p{
     color: #ffeb3b;
 }
 
-
+/* end footer*/
 /* */
 @media (max-width:991px) {
 
